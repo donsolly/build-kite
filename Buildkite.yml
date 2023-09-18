@@ -1,5 +1,5 @@
 steps:
-# False Positive: Include clown "🤡" in the clown_detect.txt file
+# False Positive: Include clown emoji in the clown_detect.txt file
   - label: ":clown: DetectClowns"
     plugins:
       - detect-clowns#v2.0.0: ~
