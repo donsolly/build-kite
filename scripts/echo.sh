@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Just to pass
+echo "Just to pass"
