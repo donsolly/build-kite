@@ -3,4 +3,9 @@ steps:
   - label: ":hammer: DetectClowns"
     plugins:
       - detect-clowns#v2.0.0: ~
+
+  - label: ":hammer: Shell Check"
+    plugins:
+      - shellcheck#v1.3.0:
+          files: scripts/*.sh
       
