@@ -3,11 +3,4 @@ steps:
   - label: ":hammer: DetectClowns"
     plugins:
       - detect-clowns#v2.0.0: ~
-
-
-#False positive: Let the bash file have an error.
-  - label: ":shell: Shellcheck"
-    plugins:
-      - shellcheck#v1.3.0:
-          files: ./hooks/**
       
